@@ -56,7 +56,7 @@ if __name__ == '__main__':
     cur.nxt = temp
     cur = cur.nxt
   print_list(head)
-  head = sorta_sort(head, 4)
+  head = sorta_sort(head, 5)
   print_list(head)
 
 

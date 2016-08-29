@@ -9,7 +9,7 @@ from collections import namedtuple
 
 Node = namedtuple('Node','key data')
 table = [[] for i in range(20)]
-values = [Node(x,random.random()) for x in range(15)]
+values = [Node(x,random.random()) for x in range(43)]
 
 
 #class Node:
